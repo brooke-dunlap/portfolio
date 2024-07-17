@@ -3,11 +3,58 @@ body {
     line-height: 2;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 header {
     background: #4e4c4c;
-    color: #fff;
+    color: white;
     padding: 1px;
-    text-align: center;
+    text-align: right;
 }
+
+h1 {
+    text-align: left;
+    margin-left: 20px;
+    width: 50%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+h2 {
+    color: rgba(14, 45, 179, 0.63);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-right: 80px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+#about {
+    display: flex;
+}
+
+#work {
+    display: flex;
+}
+
+#contact {
+    display: flex;
+}
+
+.contact-info {
+    display:block;
+}
+
+
