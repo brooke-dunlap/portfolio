@@ -12,14 +12,23 @@ body {
 header {
     background: #4e4c4c;
     color: white;
-    padding: 1px;
+    padding: 2%;
     text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
     text-align: left;
     margin-left: 20px;
-    width: 50%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 nav ul li {
@@ -36,25 +45,28 @@ h2 {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
-    margin-right: 80px;
+    margin-right: 40px;
     margin-left: 20px;
     text-align: right;
+    border-right: 2px solid black;
+    padding: 20px;
 }
 
-#about {
+#about, #work, #contact {
     display: flex;
 }
 
-#work {
+.work-gallery{
     display: flex;
 }
 
-#contact {
-    display: flex;
+img {
+    height: 200px;
 }
 
 .contact-info {
-    display:block;
+    display: block;
+    padding: 40px;
 }
 
 
